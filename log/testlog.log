@@ -4651,3 +4651,9 @@
 2020-09-05 02:02:05,146 - Clinical Managment System -INFO - Home Page SignIn Passed
 2020-09-05 02:02:23,835 - Clinical Managment System -INFO - Home Page Phone Broken Link verification Passed,No Broken Links
 2020-09-05 02:02:25,764 - Clinical Managment System -INFO - Home Page Sign Out from system
+2020-09-06 06:25:36,348 - Clinical Managment System -INFO - SignIn Page Website : 
+2020-09-06 06:25:36,508 - Clinical Managment System -INFO - SignIn Page Username is provided
+2020-09-06 06:25:36,637 - Clinical Managment System -INFO - SignIn Page Password is provided
+2020-09-06 06:25:40,344 - Clinical Managment System -INFO - SignIn Page SignIn clicked
+2020-09-06 06:25:40,969 - Clinical Managment System -INFO - SignIn Page SignIn Passed
+2020-09-06 06:25:43,582 - Clinical Managment System -INFO - SignIn Page SignOut Passed
