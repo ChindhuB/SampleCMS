@@ -90,8 +90,8 @@ public class ReportingNew extends TestListenerAdapter {
 		// send the failed information to the report with RED color highlighted
 		Object testObj=tr.getInstance();
 		Class cls=tr.getTestClass().getRealClass().getSuperclass();
-		String screenshotname="test";
-		System.out.println("1"+screenshotname);
+		String screenshotname="firstscreenshotname";
+		System.out.println(screenshotname);
 		try {
 			screenshotname = cls.getDeclaredField("bscreenshotname").get(testObj).toString();
 			System.out.println("2"+screenshotname);
