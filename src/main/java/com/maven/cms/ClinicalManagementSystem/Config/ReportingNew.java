@@ -144,9 +144,9 @@ public class ReportingNew extends TestListenerAdapter {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		String sourcedirpath="C:/Users/Cibin/Desktop/BusyQA/Eclipse/ClinicalManagementSystem/report";
+		String sourcedirpath="./report";
 		new ZipDir(sourcedirpath);
-		File scr1=new File(sourcedirpath+".zip");
+		/*File scr1=new File(sourcedirpath+".zip");
 		File trgt1=new File("C:/Program Files (x86)/Jenkins/workspace/ClinicalManagementSystem/report.zip");
 		try {
 			if(trgt1.exists()) {
@@ -156,7 +156,7 @@ public class ReportingNew extends TestListenerAdapter {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}*/
 	}
 
 }
