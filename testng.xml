@@ -12,7 +12,7 @@
 	<test name="ClinicalManagementSystemTest">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<!-- -->
+			
 			<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC001_LoginTest" />
 
@@ -24,18 +24,28 @@
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC005_ClientSortTest" />
 			<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC006_ClientManageTest" />
+				
 			<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC007_ClientManageViewTest" />
+				
+				
 			<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC008_ClientManageEditClientInfoTest" />
+			
+			
 			<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC009_HomeClientbuttonTest" />
+			
 			<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC010_HomePrivacybuttonTest" />
+				
+			 
 			<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC011_HomeBillingbuttonTest" />
+			
 			<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC012_HomeReportsbuttonTest" />
+				
 			<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC013_HomeAccountActivitybuttonTest" />
 			<class
@@ -48,7 +58,7 @@
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC017_HomeCreateAppointmentbuttonTest" />
 			<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC018_HomeMessagebuttonTest" />
-			<class
+		<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC019_HomeUpgradebuttonTest" />
 			<class
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC020_HomeSearchTest" />
@@ -70,5 +80,6 @@
 				name="com.maven.cms.ClinicalManagementSystem.TestCases.TC026_HomeBrokenLinkTest" />
 
 		</classes>
+	
 	</test>
 </suite>
