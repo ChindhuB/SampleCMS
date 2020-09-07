@@ -18,7 +18,7 @@ public class HomePg {
 	By hmcalendar = By.id("ember27");
 	By hmprivacybttn = By.xpath("//div[@class='privacy']");
 	By hmclients = By.xpath("//a[@id='ember28']");
-	String hmvalclients = "Clients & Contacts - ";
+	String hmvalclients = "Clients & Contacts";
 	By hmbilling = By.xpath("//div[@id='ember26']//a[3]");
 	String hmvalbilling = "Billing - ";
 	By hmreports = By.id("ember29");

@@ -77,6 +77,7 @@ public class TC025_ClientphoneLinkTest extends baseClass {
 		}
 		
 		  lp.clickSettingsicon();
+		  lp.clickSettingsicon();
 		  lp.clickSignout();
 		  logger.info("Client Page SignOut from system");
 		 
