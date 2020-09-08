@@ -56,8 +56,8 @@ public class TC025_ClientphoneLinkTest extends baseClass {
 
 		if (!cp.verifyClientcontactpresent()) {
 			try {
-				cp.cpphoneLinkclick();
-				logger.info("Client Page Phone Link Option click Passed");
+				//cp.cpphoneLinkclick();
+				//logger.info("Client Page Phone Link Option click Passed");
 
 				if (cp.valcpphoneLinkclick(url)) {
 					Assert.assertTrue(true);
@@ -76,7 +76,6 @@ public class TC025_ClientphoneLinkTest extends baseClass {
 			}
 		}
 		
-		  lp.clickSettingsicon();
 		  lp.clickSettingsicon();
 		  lp.clickSignout();
 		  logger.info("Client Page SignOut from system");
