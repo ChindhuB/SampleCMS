@@ -1,0 +1,14 @@
+2020-09-07 20:19:43,361 - Clinical Managment System -INFO - SignIn Page Website : 
+2020-09-07 20:19:43,522 - Clinical Managment System -INFO - SignIn Page Username is provided
+2020-09-07 20:19:43,691 - Clinical Managment System -INFO - SignIn Page Password is provided
+2020-09-07 20:19:47,128 - Clinical Managment System -INFO - SignIn Page SignIn clicked
+2020-09-07 20:19:48,099 - Clinical Managment System -INFO - SignIn Page SignIn Passed
+2020-09-07 20:19:49,438 - Clinical Managment System -INFO - SignIn Page SignOut Passed
+2020-09-07 20:19:54,843 - Clinical Managment System -INFO - Client Page Website : 
+2020-09-07 20:19:54,990 - Clinical Managment System -INFO - Client Page Username is provided
+2020-09-07 20:19:55,124 - Clinical Managment System -INFO - Client Page Password is provided
+2020-09-07 20:19:57,897 - Clinical Managment System -INFO - Client Page SignIn clicked
+2020-09-07 20:19:58,319 - Clinical Managment System -INFO - No Trial Version pop up
+2020-09-07 20:19:58,319 - Clinical Managment System -INFO - Client Page SignIn Passed
+2020-09-07 20:19:59,717 - Clinical Managment System -INFO - Client Page Client button verification Passed
+2020-09-07 20:20:00,939 - Clinical Managment System -INFO - Client Page Search verification Failed for :Kevin
