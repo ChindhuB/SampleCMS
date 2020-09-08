@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ClinicalManagementSystemV1" duration-ms="17441" started-at="2020-09-07T20:12:35 EDT" finished-at="2020-09-07T20:12:52 EDT">
+    <groups>
+    </groups>
+    <test name="ClinicalManagementSystemTest" duration-ms="17441" started-at="2020-09-07T20:12:35 EDT" finished-at="2020-09-07T20:12:52 EDT">
+      <class name="com.maven.cms.ClinicalManagementSystem.TestCases.TC025_ClientphoneLinkTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.maven.cms.ClinicalManagementSystem.TestCases.TC025_ClientphoneLinkTest@20398b7c]" name="setup" is-config="true" duration-ms="4399" started-at="2020-09-07T20:12:35 EDT" finished-at="2020-09-07T20:12:39 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyClientpgPhoneLink()[pri:0, instance:com.maven.cms.ClinicalManagementSystem.TestCases.TC025_ClientphoneLinkTest@20398b7c]" name="verifyClientpgPhoneLink" duration-ms="12084" started-at="2020-09-07T20:12:40 EDT" finished-at="2020-09-07T20:12:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClientpgPhoneLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.maven.cms.ClinicalManagementSystem.TestCases.TC025_ClientphoneLinkTest@20398b7c]" name="tearDown" is-config="true" duration-ms="743" started-at="2020-09-07T20:12:52 EDT" finished-at="2020-09-07T20:12:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.maven.cms.ClinicalManagementSystem.TestCases.TC025_ClientphoneLinkTest -->
+    </test> <!-- ClinicalManagementSystemTest -->
+  </suite> <!-- ClinicalManagementSystemV1 -->
+</testng-results>
