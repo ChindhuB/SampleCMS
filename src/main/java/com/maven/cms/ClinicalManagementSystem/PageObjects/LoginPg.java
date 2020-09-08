@@ -70,6 +70,8 @@ public class LoginPg {
 	}
 
 	public void clickSignout() {
+		wait.until(ExpectedConditions
+				.visibilityOf(logSignout));
 		pgaction.moveToElement(logSignout).build().perform();
 		logSignout.click();
 	}
