@@ -28,7 +28,9 @@ public class LoginPg {
 	@CacheLookup
 	WebElement logimage;
 	By logSettingsicon=By.xpath("//button[@class='button-link button-navbar my-account js-my-account']|//a[@class='button-navbar my-account js-my-account']");
-	By logSignout=By.xpath("//a[contains(text(),'Sign Out')]") ;
+	@FindBy(xpath="//a[contains(text(),'Sign Out')]") 
+	@CacheLookup
+	WebElement logSignout;
 	String title = "Calendar - ";
 	// Initializing Login Page
 	public LoginPg(WebDriver tdriver) {
@@ -68,7 +70,7 @@ public class LoginPg {
 	}
 
 	public void clickSignout() {
-		pgaction.moveToElement(driver.findElement(logSignout)).build().perform();
-		driver.findElement(logSignout).click();
+		pgaction.moveToElement(logSignout).build().perform();
+		logSignout.click();
 	}
 }

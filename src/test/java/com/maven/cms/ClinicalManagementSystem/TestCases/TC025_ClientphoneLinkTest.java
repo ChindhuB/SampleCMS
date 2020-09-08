@@ -69,16 +69,15 @@ public class TC025_ClientphoneLinkTest extends baseClass {
 				}
 
 			} catch (Exception e) {
-				logger.info("Client Page Phone Link Option verification Failed");
-				captureScreen(driver, "cpPhoneLinkTest");
+				logger.info("Client Page Phone Link Option click verification Failed");
+				captureScreen(driver, "cpPhoneLinkclickTest");
 				Assert.assertTrue(false);
 				e.printStackTrace();
 			}
 		}
 		
-		  LoginPg lp1 = new LoginPg(driver);
-		  lp1.clickSettingsicon();
-		  lp1.clickSignout();
+		  lp.clickSettingsicon();
+		  lp.clickSignout();
 		  logger.info("Client Page SignOut from system");
 		 
 	}
